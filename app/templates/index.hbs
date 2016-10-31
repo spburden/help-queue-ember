@@ -1,1 +1,10 @@
-{{help-form}}
+<div class="container">
+
+{{help-form sendHelp="sendHelp"}}
+
+{{#each model as |student|}}
+ <p>
+   {{student.name}}
+ </p>
+{{/each}}
+</div>

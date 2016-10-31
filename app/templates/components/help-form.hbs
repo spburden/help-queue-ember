@@ -14,7 +14,7 @@
   <form>
     {{input value=name placeholder="Please enter your name" class="form-control"}}
     {{input value=location placeholder="Please enter your location" class="form-control"}}
-    {{textarea rows="3" class="form-control" placeholder="Give a brief description of issue you are having."}}
-    <button class="btn" >Help!</button>
+    {{textarea rows="3" value=issue class="form-control" placeholder="Give a brief description of issue you are having."}}
+    <button class="btn" {{action 'help'}}>Help!</button>
   </form>
 {{/if}}
