@@ -1,0 +1,20 @@
+{{#if steps}}
+  <h4>Have you gone through all the steps on the Learn How to Program debugging lesson?</h4>
+  <button class="btn" {{action 'steps'}}>Yes>></button>
+{{/if}}
+{{#if pair}}
+  <h4>Have you asked another pair for help?</h4>
+  <button class="btn" {{action 'pair'}}>Yes>></button>
+{{/if}}
+{{#if minutes}}
+  <h4>Have you spent 15 minutes going through through the problem documenting every step?</h4>
+  <button class="btn" {{action 'minutes'}}>Yes>></button>
+{{/if}}
+{{#if helpform}}
+  <form>
+    {{input value=name placeholder="Please enter your name" class="form-control"}}
+    {{input value=location placeholder="Please enter your location" class="form-control"}}
+    {{textarea rows="3" class="form-control" placeholder="Give a brief description of issue you are having."}}
+    <button class="btn" >Help!</button>
+  </form>
+{{/if}}
