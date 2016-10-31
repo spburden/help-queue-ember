@@ -2,9 +2,9 @@
   <h3>Open Tickets</h3>
   {{#each sortedStudents as |student|}}
     <div class="well">
-      <p>{{student.name}}</p>
-      <p>{{student.issue}}</p>
-      <p>{{student.location}}</p>
+      <p>Student: {{student.name}}</p>
+      <p>Issue: {{student.issue}}</p>
+      <p>Location: {{student.location}}</p>
       <p>{{moment-from-now student.timeIn interval=1000}}</p>
       <button {{action 'closeTicket' student}} class="btn btn-success">Close</button>
     </div>
