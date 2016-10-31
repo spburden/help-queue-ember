@@ -6,8 +6,11 @@ export default Ember.Route.extend({
   },
   actions: {
     sendHelp(params) {
-      this.store.createRecord('student', params).save();
-      this.transitionTo('student', params.student_id);
+      var newStudent = this.store.createRecord('student', params);
+      newStudent.save().then(function() {
+        return newStudent;
+      });
+    this.transitionTo('student', newStudent);
     }
   }
 });
