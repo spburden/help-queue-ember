@@ -1,9 +1,12 @@
-{{#each sortedStudents as |student|}}
-  <div class="well">
-    <p>{{student.name}}</p>
-    <p>{{student.issue}}</p>
-    <p>{{student.location}}</p>
-    <p>{{moment-from-now student.timeIn}}</p>
-    <button {{action 'closeTicket' student}} class="btn btn-success">Close</button>
-  </div>
-{{/each}}
+<div class="col-xs-6">
+  <h3>Open Tickets</h3>
+  {{#each sortedStudents as |student|}}
+    <div class="well">
+      <p>{{student.name}}</p>
+      <p>{{student.issue}}</p>
+      <p>{{student.location}}</p>
+      <p>{{moment-from-now student.timeIn interval=1000}}</p>
+      <button {{action 'closeTicket' student}} class="btn btn-success">Close</button>
+    </div>
+  {{/each}}
+</div>

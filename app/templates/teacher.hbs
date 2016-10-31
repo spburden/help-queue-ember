@@ -1,15 +1,4 @@
 <div class="row">
-  <div class="col-xs-6">
-    <h3>Open Tickets</h3>
     {{need-help students=model.openTickets closeTicket="closeTicket"}}
-  </div>
-
-  <div class="col-xs-6">
-    <h3>Closed Tickets</h3>
-    <ul>
-      {{#each model.closedTickets as |student|}}
-      <li>{{student.name}}</li>
-      {{/each}}
-    </ul>
-  </div>
+    {{closed-help students=model.closedTickets}}
 </div>

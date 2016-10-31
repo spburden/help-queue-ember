@@ -8,6 +8,13 @@ export default Ember.Route.extend({
     destroyStudent(student) {
       student.destroyRecord();
       this.transitionTo('index');
+    },
+    closeTicket(student, params) {
+      Object.keys(params).forEach(function(key) {
+         student.set(key, params[key]);
+      });
+     student.save();
+     this.transitionTo('index');
     }
   }
 });

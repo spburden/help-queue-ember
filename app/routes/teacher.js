@@ -15,7 +15,7 @@ export default Ember.Route.extend({
          student.set(key, params[key]);
       });
      student.save();
-     this.transitionTo('teacher');
+     this.refresh();
     }
   }
 });

@@ -1,0 +1,10 @@
+body {
+  background-color: #ecf0f1;
+}
+
+#header {
+  background-color: #f05a26;
+  color: white;
+  font-family: 'Nixie One', cursive;
+  text-align: center;
+}
