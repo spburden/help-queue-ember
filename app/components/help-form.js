@@ -24,7 +24,8 @@ export default Ember.Component.extend({
         location: this.get('location'),
         issue: this.get('issue'),
         timeIn: new Date().getTime(),
-        timeOut: 0
+        timeOut: 0,
+        status: false
       };
       this.set('helpform', false);
       this.set('helpComing', true);

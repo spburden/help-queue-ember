@@ -5,7 +5,16 @@
       "issue": "Hipster s das da ds a das  sa",
       "location": "6A",
       "timeIn": 1476956700000,
-      "timeOut": 0
+      "timeOut": 0,
+      "status": false
+    },
+    {
+      "name": "Bob",
+      "issue": "Hipster s das da ds a das  sa",
+      "location": "6A",
+      "timeIn": 1476956700000,
+      "timeOut": 1476957700000,
+      "status": true
     }
   ]
 }

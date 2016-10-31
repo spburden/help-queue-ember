@@ -1,0 +1,9 @@
+{{#each sortedStudents as |student|}}
+  <div class="well">
+    <p>{{student.name}}</p>
+    <p>{{student.issue}}</p>
+    <p>{{student.location}}</p>
+    <p>{{moment-from-now student.timeIn}}</p>
+    <button {{action 'closeTicket' student}} class="btn btn-success">Close</button>
+  </div>
+{{/each}}

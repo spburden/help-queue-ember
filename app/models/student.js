@@ -5,5 +5,6 @@ export default DS.Model.extend({
   issue: DS.attr(),
   location: DS.attr(),
   timeIn: DS.attr(),
-  timeOut: DS.attr()
+  timeOut: DS.attr(),
+  status: DS.attr()
 });
