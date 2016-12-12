@@ -4,6 +4,8 @@
 
 #### By _**Stephen Burden**_
 
+[Click here to view live](https://help-queue.pagefrontapp.com/)
+
 <img src="screenshot1.png" alt="a screenshot of the site">
 
 <img src="screenshot2.png" alt="a screenshot of the site">
