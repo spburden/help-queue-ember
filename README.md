@@ -1,6 +1,6 @@
 # Help Queue
 
-#### _This is a student > teacher help queue web application. A student can submit a ticket with their name, issue and location, then the teacher can see this along with stats for the day and close the ticket once done dealing with student. This is a replica of Epicodus's Help Queue (https://epicodus-help.firebaseapp.com/) October 31, 2016_
+#### _This is a student > teacher help queue web application. A student can submit a ticket with their name, issue and location, then the teacher can see this along with stats for the day and close the ticket once done dealing with student. This is a replica of Epicodus's Help Queue (https://epicodus-help.firebaseapp.com/), October 31, 2016_
 
 #### By _**Stephen Burden**_
 
