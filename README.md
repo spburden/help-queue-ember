@@ -1,10 +1,16 @@
-# Help-queue
+# Help Queue
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+#### _This is a student > teacher help queue web application. A student can submit a ticket with their name, issue and location, then the teacher can see this along with stats for the day and close the ticket once done dealing with student. This is a replica of Epicodus's Help Queue (https://epicodus-help.firebaseapp.com/) October 31, 2016_
+
+#### By _**Stephen Burden**_
+
+<img src="screenshot1.png" alt="a screenshot of the site">
+
+<img src="screenshot2.png" alt="a screenshot of the site">
+
+<img src="screenshot3.png" alt="a screenshot of the site">
 
 ## Prerequisites
-
 You will need the following things properly installed on your computer.
 
 * [Git](http://git-scm.com/)
@@ -13,41 +19,28 @@ You will need the following things properly installed on your computer.
 * [Ember CLI](http://ember-cli.com/)
 * [PhantomJS](http://phantomjs.org/)
 
-## Installation
+## Setup/Installation Requirements
+* _In the Terminal enter the following commands:_
+  * `git clone https://github.com/spburden/qa-message-board-ember`
+  * `cd <PROJECT-DIRECTORY>`
+  * `npm install`
+  * `bower install`
+  * `ember serve`
+* _To view the go to http://localhost:4200 in your web browser_
 
-* `git clone <repository-url>` this repository
-* change into the new directory
-* `npm install`
-* `bower install`
+## Link
+https://github.com/spburden/help-queue-ember
 
-## Running / Development
+## Known Bugs
+_There are no known bugs with this application._
 
-* `ember serve`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
+## Support and contact details
+_spburden@hotmail.com_
 
-### Code Generators
+## Technologies Used
+_Ember JS, JavaScript, JQuery, Node, npm, Bower, Gulp, Sass, HTML, CSS, and Bootstrap_
 
-Make use of the many generators for code, try `ember help generate` for more details
+### License
+The MIT License (MIT)
 
-### Running Tests
-
-* `ember test`
-* `ember test --server`
-
-### Building
-
-* `ember build` (development)
-* `ember build --environment production` (production)
-
-### Deploying
-
-Specify what it takes to deploy your app.
-
-## Further Reading / Useful Links
-
-* [ember.js](http://emberjs.com/)
-* [ember-cli](http://ember-cli.com/)
-* Development Browser Extensions
-  * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
-  * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
-
+Copyright (c) 2016 **_Stephen Burden_**
